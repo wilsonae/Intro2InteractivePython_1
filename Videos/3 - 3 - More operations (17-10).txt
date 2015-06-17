@@ -1,0 +1,496 @@
+[MUSIC] Well, it's great to see you here
+in class again.
+We're getting close to being half way
+through Week One.
+Right now, you should start to have a feel
+for what it's like to program in Python,
+you know, about expressions, you know,
+about variables, you know, about
+functions.
+But really the number of operations that
+you have at your disposal when building a
+Python program is fairly limited.
+So, what I'm going to do in this lecture
+is I'm going to tell you about a few more
+operations that you have at your disposal
+to help build more interesting programs.
+In particular, I'm going to talk about
+remainders in Modular Arithmetic.
+I'll talk a little bit about how to work
+with strings and numbers.
+And then, I'll finish it off by telling
+you to get access to some more built in
+functions inside Python.
+Okay, let's go to it.
+So, let's talk about a few more operations
+that we can use in Python.
+For the first part of the lecture, we are
+going to talk about Modular Arithmetic.
+Now, you may not have heard that phrase
+before, but you actually know how to do
+Modular Arithmetic.
+In third grade, you learned how to do long
+division.
+You had a dividend and a divisor, and you
+divided the, divided one into the other.
+What came out was a quotient and
+remainder.
+So, that remainder is actually,
+essentially your computing Modular
+Arithmetic when you compute remainders.
+So, I'm going to give you a few examples
+illustrating how to use Modular
+Arithmetic.
+So, let's start of with a really simple
+problem.
+Let's say, we have a 2-digit number, and
+we'd like to compute its tens digit and
+its ones digit.
+So, how can we get the tens digit?
+I think it's not too hard, we actually
+have something that computes the quotient,
+it's the energy division operator slash,
+slash.
+So, we could say num energy divided by ten
+so, ten goes into 49 four times, so I'm
+going to predict we're going to get out
+the number four.
+Sure enough.
+Now, we'd like to also get the ones digit.
+So, how can we do that?
+Well, we need to compute the remainder.
+Whenever we take num, we take the
+remainder with respect to ten.
+So, let's see if we can find out what the
+remainder operation is in Python.
+Let's go to CodeSkulptor Python.
+And we're going to squeeze down here.
+Let's see.
+Integers and floating-point numbers.
+Let's scroll down.
+Hm.
+Modular Arithmetic that sounds kind of
+plausible.
+And sure enough, that's actually what
+we're going to use.
+We're going to use the send operator to
+compute a remainder here.
+So, we could say, print tens. Now, we can
+print out the ones digit also and we get
+49.
+And notice we can always reconstruct the
+original number by just taking ten times
+the tens digit plus the ones digit.
+So, there's nothing special about 49 here.
+That actually works no matter what.
+Alright, let's talk about another example
+of Modular Arithmetic using remainder.
+So, this is the classical example that
+you'll see, it's called clock arithmetic.
+And the idea is we're going to want to do
+computations involving hours, and either a
+12-hour or 24-hour clock.
+So, let's pop over to one note here.
+And what you can see right here is I might
+have kind of two tables.
+The one on the one on left here.
+This is the 12-hour clock.
+And so, we list all the hours in the day
+on the 12-hour clock.
+We have twelve hours that are a.m., twelve
+hours in p.m.
+Notice that the hours start at twelve,
+And one, two, three, four, five, six,
+seven, eight, nine, ten, and eleven.
+If we'd like to do arithmetic on the
+12-hour clock, we can almost use remainder
+to do that.
+So, let's go down here and consider a
+problem.
+Right now, in this clock, I have listing
+the time as I have the time listed as
+eight:00 p.m.
+So, here it is eight:00 p.m.
+Now, I would like to skip and figure out
+kind of eight hours ahead what the new
+time would be.
+So, let's go down here and we'll just
+write hours and I'll draw very carefully.
+My handwriting is not so great so I'll try
+to go slow here.
+So, we go ahead, we end up here,
+And where do we end up?
+We end up at four:00 a.m.
+And what do we do up here?
+We went plus eight hours.
+So, we could do that using remainder.
+We could take eight plus eight would be
+sixteen, I take this remainder twelve,
+that would be four.
+But now, it's a little awkward here
+because we have to change a.m. to p.m. and
+the big problem is that in some sense, if
+we end up with twelve and we take the
+remainder twelve we get zero.
+But, in this clock, kind of zero is
+twelve.
+So, the, the 12-hour clock is not a great
+clock for kind of doing power arithmetic.
+So, there's another clock, and it's
+preferred by the military, for probably
+this is one of the reasons why, it's
+called the 24-hour clock.
+There's no a.m.
+And p.m.
+The, the starting hour is at zero, it's
+0000, and it's 0100, 0200, all the way up
+to 2100, 2200, 2300.
+And so, in this model, we can do clock
+arithmetic in a much cleaner way.
+So, I have an example over here.
+I have an example over here, that
+involves, let's see.
+There are 2000. What do we want to do?
+We want to go ahead eight hours.
+So, we drop that real quick.
+So, I can go here, and that would be I
+guess, 0400.
+So, we'd like to go for eight hours here.
+So, we could do that, we could say, plus,
+plus eight hours.
+And so, what can we do?
+We can use modular, Arithmetic to do this.
+And this is actually is much cleaner
+because we could take twenty plus eight,
+that's 28.
+We can take a remainder 24, that's four.
+So, we can really use Modular Arithmetic
+and remainders to actually do, essentially
+computation of hours on the military clock
+very easily, the 24-hour clock.
+So, let's go back and do that in
+CodeSkulptor real quick.
+So, let's pop back over here.
+So, here we have hours twenty, so we're at
+2000..
+So, that's military time.
+And we like to go through and actually
+figure out what the time will be after we
+finish an 8-hour shift.
+So, we could do that, we could say print
+hour plus shift, remainder 24.
+So, if we print that,
+We got 28 out.
+What happened here?
+We thought we were going to get four.
+Well, let's think about this as a, in
+terms of precedents.
+Remainder has higher precedence than plus.
+So, what happenned here in Python, was
+that we computed shift remainder 24.
+So, let's say, the shift was eight, so is
+eight remainder 24 is eight, we added that
+to twenty, we got 28.
+So, to actually do this computation
+correctly, what we need to do is we need
+to go through and add first and then, take
+the remainder second.
+So, we do that,
+What comes out is four.
+Okay, let's do another example.
+Okay.
+Let's look at one more application using
+Modular Arithmetic.
+And this will be something she'll actually
+do fairly often in the class.
+You're going to have a 2D game.
+Objects may be moving around.
+And you have to deal with what happens
+when an object gets near the edge of the
+canvas.
+Maybe it's going to bang off of it.
+Maybe it's going to come to stop.
+But sometimes, you'd like it to actually
+do maybe something where it wraps around.
+It goes off one side and comes on the
+other side.
+Let me just show you a quick little demo.
+Here's a part of a game you're going to
+actually build later on.
+This is a spaceship.
+And our spaceship starts flying, and we
+get close to the edge of the screen , and
+what's going to happen?
+Well, it pops on the other side of the
+screen, it wrapped around.
+If I go off the top of the screen,
+I wrapped around.
+I go back on the bottom of the screen
+after I round the top.
+So, how do we model this mathematically?
+You could store kind of some, some
+information to represent the, the position
+of the center of the ship.
+But when we go off one edge of the screen,
+we better change that position so that
+it's kind of in a different position way
+on the other side of the screen.
+So, we can use Modular Arithmetic to do
+that.
+So, let's go back and look at this. So,
+lets see where the situation where we are
+keeping track of the horizontal position
+of the ship and so we're at this, the
+frame that I created was 800 pixels wide.
+So, we are getting close to that
+right-hand edge, and we say, we need to go
+right five pixels.
+How can we do that?
+Well, I claimed we can do that using
+remainders, we can say, position is equal
+to, well, the old position plus whatever
+the move was, we could do that remainder,
+The width of the screen, and if we print
+out position what's going to come out is
+two.
+The new, the position of the ship after we
+move five units right has not overpassed
+the right-hand side of the screen.
+The screen is actually over the left-hand
+screened, side of the screen it positioned
+to.
+So, we've popped from the right-hand side
+to the left-hand side.
+The interesting thing is this also works
+the other way.
+And to do that, you have to understand how
+a remainder works on negative numbers.
+If we take the remainder of something
+that's negative.
+What happens is we're always going to get
+a number back in the range from zero to
+width. Zero to the number that we're
+taking the remainder of respect to.
+So, what's going to happen is when we take
+the remainder of something that's negative
+we're going to get something that appears
+on the screen,
+Something in the right range.
+We'll just do that tangibly.
+Let's say, we were the other way.
+Let's say, we were at position two.
+So, we're going to counter reverse this.
+We were positioned to, and we did a move
+of -five.
+We kind of move to the left.
+We're on the left-hand side of the screen
+and we move left, that's going be -five.
+Run the same code.
+Well, what's going to come out, we're
+going to get two minus five is negative
+three.
+So, we have to find -three remainder 800.
+And I told you that's always going to be a
+number between the zero and the width.
+So, it comes out as 797.
+So, we kind of took -three, we added 800
+to it.
+It gives a number between zero and 800,
+it's 797, so we pop to the right-hand side
+of the screen.
+So, notice using remainders here actually
+works, works in both directions.
+It works when you're moving left, it works
+when you're moving right, it works when
+you're going up, it works when you're
+going down.
+So, remainder is going to be your friend
+when you're doing screen wrapping in your
+games.
+The next topic that I'd like to cover is
+talk a little bit more about how to
+convert back and forth between data types.
+In the lecture on Arithmetic expressions,
+we talked about the operator int and the
+operator float, and how those kind of
+converted data in other forms into either
+an integer or floating-point number.
+There's times when you're going to have a
+number and you're going to want to convert
+it into string so you can print it out.
+your first three projects are going to
+involve really just doing lots of
+printing.
+You won't get into using the canvas and
+doing drawing until Week four.
+So, what I want to do here is just talk a
+little bit about how you can convert
+things into a string, and so I'm going to
+motivate it by just talking about a very
+simple problem.
+So, we, we talked earlier about 24, the
+24-hour clock.
+And, in a 24-hour clock, you always kind
+of think about the, the hours, as being
+two digit even if there's a zero in front
+of the, even if it's like three:000 a.m.,
+it's really 03.
+So, here three:000 a.m. would be 0300.
+So, what I'd like to do is talk about how
+to take an hour in the 24-hour clock, and
+convert it into a string that look like
+this.
+Especially, make sure it has a leading
+zero.
+So, to do that, we're going to use a
+little bit of Modular Arithmetic using
+remainders.
+We're going to use what we talked about
+before we got the ones in tens digit.
+And then, we're going to have to figure
+out how to do a couple of string
+operations, get those numbers and convert
+them into a string.
+And then, we're going to have to figure
+out how to kind of format that string so
+it'll look like something in this form
+here.
+So, let's see if we can do that.
+So, the first thing is let's get the ones
+digit.
+I think we've already done that with the
+10's digit.
+So, we can just print those out.
+We could print tens and ones, let's just
+see what that looks like.
+This doesn't look good.
+Well, I guess we had a zero and a three.
+Okay, yeah, I'll have, let's do this.
+Let's print out one more thing, let's
+print out a string which has the minutes
+or it seems the minutes are, or even hour.
+So, if we do that,
+We get kind of 03:00..
+And you can see there's a bunch of space
+is in there and it doesn't look very good.
+So, what could we do here?
+We could try to convert these numbers into
+strings, that might be the first thing.
+And then we could think about the other
+ways to kind of manage the string to get
+it to something that looks like what we
+want.
+So hm, it turns out that there's a
+function that we can do that.
+We could convert the number into string
+using the str function.
+So, we can try our next attempt, we could
+say, print str of tens and str of ones.
+And then we can keep printing our string
+called 00. So now, if we do that.
+Well, dang.
+It's the exact same thing.
+This is now a string, this is now a
+string.
+But it just turns out they're exactly the
+same.
+Hm.
+But now, that there are strings, we can do
+some things to them that we couldn't do
+with numbers.
+So, for numbers, when we use the plus
+separator on them, we added the numbers.
+It turns out, Python likes to take common
+operators, and try to interpret them as
+being applied to things that you're not
+used to.
+So, for example, there's a plus operator
+for strings.
+So, what would plus operator do for
+strings?
+Well, it joins the strings together.
+So, what I'm going to do is I'm going to
+try one more attempt here.
+I'm going to say, print plus the string of
+ones, plus and let's add in 00..
+Let's try that, to see if anything good
+happens.
+So, notice what happened here now.
+This plus operator joined the strings
+together, and it didn't throw an error
+because this is a string and this is a
+string and this is a string so it's nice
+to actually take strings and join them
+together.
+And most importantly, he didn't put in all
+these annoying blank spaces in here.
+This is an example of what's called string
+form, string formatting, and you're going
+to get good at it after the next couple of
+weeks here.
+But the most important thing is remember
+this function str. It converts something
+into the string just like int converted
+something into an integer and flow,
+converted something into a floating-point
+number, str converts something into a
+string.
+Let's finish off and we'll do one more
+thing.
+I mentioned that there are lots of other
+functions available inside Python. the way
+you get at those functions, these extra
+functions, these are things called modules
+and they are kind of things that are
+outside of basic Python that people have
+built and added into Python and to get
+access to those functions, you need to go
+through and import them.
+So, in Python, you need to say, import
+module name.
+So, if you go into the Hello World page,
+you'll see something that says, Import
+Simple GUI." Simple GUI is a module that
+Scott and I built that actually opens up a
+canvas and draws Hello World on it.
+There are two common modules that you
+should know about, that you'll need to use
+as the class goes on.
+One is Math and the other one is Random.
+And you can take a peek at them up here in
+the docs.
+So, we can go to CodeSkulptor Python and
+scroll down.
+And there you go.
+There's the Math module.
+We'll just scroll down there and see.
+It has kind of all the common math
+functions that you're used to.
+If you're looking for a math function
+that's not built into Python, you can say
+import math, and go down here and use all
+these.
+We'll go back here.
+For example, I could say print Math.pi and
+this is print out a very nice
+approximation to pi.
+And the other one that you're going to use
+this week, it's going to be a random
+module and it gives you the ability to
+generate random numbers.
+So, also, it's also described up here so
+let's go up and close that.
+Go back down, I look in the Random module,
+and it's got a smaller set of functions
+here.
+But there's some functions that you're
+going to be using fairly often.
+The one you'll probably, the two that
+you'll probably use the most will be it's
+going to be random.randrage. And so, that
+one you should take a look at and figure
+out how it works and you'll be all good.
+Okay.
+So, those are some other functions you can
+use in this week and the upcoming weeks.
+See you next lecture.

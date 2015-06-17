@@ -1,0 +1,538 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Coursera Calendars//NONSGML//EN
+X-WR-CALNAME:An Introduction to Interactive Programming in Python (Part 1)
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:974686|quiz|6|hard
+DTSTART:20150614T040100Z
+DTEND:20150614T050100Z
+DTSTAMP:20150614T040100Z
+CREATED:20150610T220836Z
+DESCRIPTION:If you submit any time after the hard deadline\, you will not receive credit. Note that deadlines are sometimes extended\, so check the website for the latest information.
+LAST-MODIFIED:20150614T040100Z
+LOCATION:https://class.coursera.org/interactivepython1-003/quiz/start?quiz_id=6
+SUMMARY:IntPyt: Quiz 0 (Hard Deadline)
+SEQUENCE:0
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:974686|quiz|6|soft
+DTSTART:20150607T040100Z
+DTEND:20150607T050100Z
+DTSTAMP:20150607T040100Z
+CREATED:20150610T220836Z
+DESCRIPTION:If you submit after the due date (but before the hard deadline)\, your submission score will be penalized 50%. Note that deadlines are sometimes extended\, so check the website for the latest information.
+LAST-MODIFIED:20150607T040100Z
+LOCATION:https://class.coursera.org/interactivepython1-003/quiz/start?quiz_id=6
+SUMMARY:IntPyt: Quiz 0 (Due Date)
+SEQUENCE:0
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:974686|quiz|8|hard
+DTSTART:20150614T040100Z
+DTEND:20150614T050100Z
+DTSTAMP:20150614T040100Z
+CREATED:20150610T220836Z
+DESCRIPTION:If you submit any time after the hard deadline\, you will not receive credit. Note that deadlines are sometimes extended\, so check the website for the latest information.
+LAST-MODIFIED:20150614T040100Z
+LOCATION:https://class.coursera.org/interactivepython1-003/quiz/start?quiz_id=8
+SUMMARY:IntPyt: Quiz 1 (Hard Deadline)
+SEQUENCE:0
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:974686|quiz|8|soft
+DTSTART:20150607T040100Z
+DTEND:20150607T050100Z
+DTSTAMP:20150607T040100Z
+CREATED:20150610T220836Z
+DESCRIPTION:If you submit after the due date (but before the hard deadline)\, your submission score will be penalized 50%. Note that deadlines are sometimes extended\, so check the website for the latest information.
+LAST-MODIFIED:20150607T040100Z
+LOCATION:https://class.coursera.org/interactivepython1-003/quiz/start?quiz_id=8
+SUMMARY:IntPyt: Quiz 1 (Due Date)
+SEQUENCE:0
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:974686|quiz|9|hard
+DTSTART:20150621T040100Z
+DTEND:20150621T050100Z
+DTSTAMP:20150621T040100Z
+CREATED:20150610T220836Z
+DESCRIPTION:If you submit any time after the hard deadline\, you will not receive credit. Note that deadlines are sometimes extended\, so check the website for the latest information.
+LAST-MODIFIED:20150621T040100Z
+LOCATION:https://class.coursera.org/interactivepython1-003/quiz/start?quiz_id=9
+SUMMARY:IntPyt: Quiz 2a (Hard Deadline)
+SEQUENCE:0
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:974686|quiz|9|soft
+DTSTART:20150614T040100Z
+DTEND:20150614T050100Z
+DTSTAMP:20150614T040100Z
+CREATED:20150610T220836Z
+DESCRIPTION:If you submit after the due date (but before the hard deadline)\, your submission score will be penalized 50%. Note that deadlines are sometimes extended\, so check the website for the latest information.
+LAST-MODIFIED:20150614T040100Z
+LOCATION:https://class.coursera.org/interactivepython1-003/quiz/start?quiz_id=9
+SUMMARY:IntPyt: Quiz 2a (Due Date)
+SEQUENCE:0
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:974686|quiz|10|hard
+DTSTART:20150621T040100Z
+DTEND:20150621T050100Z
+DTSTAMP:20150621T040100Z
+CREATED:20150610T220836Z
+DESCRIPTION:If you submit any time after the hard deadline\, you will not receive credit. Note that deadlines are sometimes extended\, so check the website for the latest information.
+LAST-MODIFIED:20150621T040100Z
+LOCATION:https://class.coursera.org/interactivepython1-003/quiz/start?quiz_id=10
+SUMMARY:IntPyt: Quiz 2b (Hard Deadline)
+SEQUENCE:0
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:974686|quiz|10|soft
+DTSTART:20150614T040100Z
+DTEND:20150614T050100Z
+DTSTAMP:20150614T040100Z
+CREATED:20150610T220836Z
+DESCRIPTION:If you submit after the due date (but before the hard deadline)\, your submission score will be penalized 50%. Note that deadlines are sometimes extended\, so check the website for the latest information.
+LAST-MODIFIED:20150614T040100Z
+LOCATION:https://class.coursera.org/interactivepython1-003/quiz/start?quiz_id=10
+SUMMARY:IntPyt: Quiz 2b (Due Date)
+SEQUENCE:0
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:974686|quiz|33|hard
+DTSTART:20150628T040100Z
+DTEND:20150628T050100Z
+DTSTAMP:20150628T040100Z
+CREATED:20150610T220836Z
+DESCRIPTION:If you submit any time after the hard deadline\, you will not receive credit. Note that deadlines are sometimes extended\, so check the website for the latest information.
+LAST-MODIFIED:20150628T040100Z
+LOCATION:https://class.coursera.org/interactivepython1-003/quiz/start?quiz_id=33
+SUMMARY:IntPyt: Quiz 3a (Hard Deadline)
+SEQUENCE:0
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:974686|quiz|33|soft
+DTSTART:20150621T040100Z
+DTEND:20150621T050100Z
+DTSTAMP:20150621T040100Z
+CREATED:20150610T220836Z
+DESCRIPTION:If you submit after the due date (but before the hard deadline)\, your submission score will be penalized 50%. Note that deadlines are sometimes extended\, so check the website for the latest information.
+LAST-MODIFIED:20150621T040100Z
+LOCATION:https://class.coursera.org/interactivepython1-003/quiz/start?quiz_id=33
+SUMMARY:IntPyt: Quiz 3a (Due Date)
+SEQUENCE:0
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:974686|quiz|40|hard
+DTSTART:20150628T040100Z
+DTEND:20150628T050100Z
+DTSTAMP:20150628T040100Z
+CREATED:20150610T220836Z
+DESCRIPTION:If you submit any time after the hard deadline\, you will not receive credit. Note that deadlines are sometimes extended\, so check the website for the latest information.
+LAST-MODIFIED:20150628T040100Z
+LOCATION:https://class.coursera.org/interactivepython1-003/quiz/start?quiz_id=40
+SUMMARY:IntPyt: Quiz 3b (Hard Deadline)
+SEQUENCE:0
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:974686|quiz|40|soft
+DTSTART:20150621T040100Z
+DTEND:20150621T050100Z
+DTSTAMP:20150621T040100Z
+CREATED:20150610T220836Z
+DESCRIPTION:If you submit after the due date (but before the hard deadline)\, your submission score will be penalized 50%. Note that deadlines are sometimes extended\, so check the website for the latest information.
+LAST-MODIFIED:20150621T040100Z
+LOCATION:https://class.coursera.org/interactivepython1-003/quiz/start?quiz_id=40
+SUMMARY:IntPyt: Quiz 3b (Due Date)
+SEQUENCE:0
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:974686|quiz|41|hard
+DTSTART:20150705T040100Z
+DTEND:20150705T050100Z
+DTSTAMP:20150705T040100Z
+CREATED:20150610T220836Z
+DESCRIPTION:If you submit any time after the hard deadline\, you will not receive credit. Note that deadlines are sometimes extended\, so check the website for the latest information.
+LAST-MODIFIED:20150705T040100Z
+LOCATION:https://class.coursera.org/interactivepython1-003/quiz/start?quiz_id=41
+SUMMARY:IntPyt: Quiz 4a (Hard Deadline)
+SEQUENCE:0
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:974686|quiz|41|soft
+DTSTART:20150628T040100Z
+DTEND:20150628T050100Z
+DTSTAMP:20150628T040100Z
+CREATED:20150610T220836Z
+DESCRIPTION:If you submit after the due date (but before the hard deadline)\, your submission score will be penalized 50%. Note that deadlines are sometimes extended\, so check the website for the latest information.
+LAST-MODIFIED:20150628T040100Z
+LOCATION:https://class.coursera.org/interactivepython1-003/quiz/start?quiz_id=41
+SUMMARY:IntPyt: Quiz 4a (Due Date)
+SEQUENCE:0
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:974686|quiz|42|hard
+DTSTART:20150705T040100Z
+DTEND:20150705T050100Z
+DTSTAMP:20150705T040100Z
+CREATED:20150610T220836Z
+DESCRIPTION:If you submit any time after the hard deadline\, you will not receive credit. Note that deadlines are sometimes extended\, so check the website for the latest information.
+LAST-MODIFIED:20150705T040100Z
+LOCATION:https://class.coursera.org/interactivepython1-003/quiz/start?quiz_id=42
+SUMMARY:IntPyt: Quiz 4b (Hard Deadline)
+SEQUENCE:0
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:974686|quiz|42|soft
+DTSTART:20150628T040100Z
+DTEND:20150628T050100Z
+DTSTAMP:20150628T040100Z
+CREATED:20150610T220836Z
+DESCRIPTION:If you submit after the due date (but before the hard deadline)\, your submission score will be penalized 50%. Note that deadlines are sometimes extended\, so check the website for the latest information.
+LAST-MODIFIED:20150628T040100Z
+LOCATION:https://class.coursera.org/interactivepython1-003/quiz/start?quiz_id=42
+SUMMARY:IntPyt: Quiz 4b (Due Date)
+SEQUENCE:0
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:974686|quiz|86|hard
+DTSTART:20150606T040100Z
+DTEND:20150606T050100Z
+DTSTAMP:20150606T040100Z
+CREATED:20150610T220836Z
+DESCRIPTION:If you submit any time after the hard deadline\, you will not receive credit. Note that deadlines are sometimes extended\, so check the website for the latest information.
+LAST-MODIFIED:20150606T040100Z
+LOCATION:https://class.coursera.org/interactivepython1-003/quiz/start?quiz_id=86
+SUMMARY:IntPyt: Welcome Survey (optional) (Hard Deadline)
+SEQUENCE:0
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:974686|quiz|303|hard
+DTSTART:20150705T040100Z
+DTEND:20150705T050100Z
+DTSTAMP:20150705T040100Z
+CREATED:20150610T220836Z
+DESCRIPTION:If you submit any time after the hard deadline\, you will not receive credit. Note that deadlines are sometimes extended\, so check the website for the latest information.
+LAST-MODIFIED:20150705T040100Z
+LOCATION:https://class.coursera.org/interactivepython1-003/quiz/start?quiz_id=303
+SUMMARY:IntPyt: Part 1 Exit Survey (optional) (Hard Deadline)
+SEQUENCE:0
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:974686|assessment|27|submission
+DTSTART:20150531T040100Z
+DTEND:20150531T050100Z
+DTSTAMP:20150531T040100Z
+CREATED:20150610T220836Z
+DESCRIPTION: Note that deadlines are sometimes extended\, so check the website for the latest information.
+LAST-MODIFIED:20150531T040100Z
+LOCATION:https://class.coursera.org/interactivepython1-003/human_grading/view?assessment_id=27
+SUMMARY:IntPyt: Mini-project # 0 - &quot\;We want... a shrubbery!&quot\; (optional) (Submission Deadline)
+SEQUENCE:0
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:974686|assessment|27|evaluation
+DTSTART:20150603T160100Z
+DTEND:20150603T170100Z
+DTSTAMP:20150603T160100Z
+CREATED:20150610T220836Z
+DESCRIPTION: Note that deadlines are sometimes extended\, so check the website for the latest information.
+LAST-MODIFIED:20150603T160100Z
+LOCATION:https://class.coursera.org/interactivepython1-003/human_grading/view?assessment_id=27
+SUMMARY:IntPyt: Mini-project # 0 - &quot\;We want... a shrubbery!&quot\; (optional) (Evaluation Deadline)
+SEQUENCE:0
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:974686|assessment|28|submission
+DTSTART:20150607T040100Z
+DTEND:20150607T050100Z
+DTSTAMP:20150607T040100Z
+CREATED:20150610T220836Z
+DESCRIPTION: Note that deadlines are sometimes extended\, so check the website for the latest information.
+LAST-MODIFIED:20150607T040100Z
+LOCATION:https://class.coursera.org/interactivepython1-003/human_grading/view?assessment_id=28
+SUMMARY:IntPyt: Mini-project # 1 - Rock-paper-scissors-lizard-Spock (Submission Deadline)
+SEQUENCE:0
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:974686|assessment|28|evaluation
+DTSTART:20150610T160100Z
+DTEND:20150610T170100Z
+DTSTAMP:20150610T160100Z
+CREATED:20150610T220836Z
+DESCRIPTION: Note that deadlines are sometimes extended\, so check the website for the latest information.
+LAST-MODIFIED:20150610T160100Z
+LOCATION:https://class.coursera.org/interactivepython1-003/human_grading/view?assessment_id=28
+SUMMARY:IntPyt: Mini-project # 1 - Rock-paper-scissors-lizard-Spock (Evaluation Deadline)
+SEQUENCE:0
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:974686|assessment|29|submission
+DTSTART:20150614T040100Z
+DTEND:20150614T050100Z
+DTSTAMP:20150614T040100Z
+CREATED:20150610T220836Z
+DESCRIPTION: Note that deadlines are sometimes extended\, so check the website for the latest information.
+LAST-MODIFIED:20150614T040100Z
+LOCATION:https://class.coursera.org/interactivepython1-003/human_grading/view?assessment_id=29
+SUMMARY:IntPyt: Mini-project # 2 - &quot\;Guess the number&quot\; game&quot\; (Submission Deadline)
+SEQUENCE:0
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:974686|assessment|29|evaluation
+DTSTART:20150617T160100Z
+DTEND:20150617T170100Z
+DTSTAMP:20150617T160100Z
+CREATED:20150610T220836Z
+DESCRIPTION: Note that deadlines are sometimes extended\, so check the website for the latest information.
+LAST-MODIFIED:20150617T160100Z
+LOCATION:https://class.coursera.org/interactivepython1-003/human_grading/view?assessment_id=29
+SUMMARY:IntPyt: Mini-project # 2 - &quot\;Guess the number&quot\; game&quot\; (Evaluation Deadline)
+SEQUENCE:0
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:974686|assessment|30|submission
+DTSTART:20150621T040100Z
+DTEND:20150621T050100Z
+DTSTAMP:20150621T040100Z
+CREATED:20150610T220836Z
+DESCRIPTION: Note that deadlines are sometimes extended\, so check the website for the latest information.
+LAST-MODIFIED:20150621T040100Z
+LOCATION:https://class.coursera.org/interactivepython1-003/human_grading/view?assessment_id=30
+SUMMARY:IntPyt: Mini-project # 3 - &quot\;Stopwatch: The Game&quot\; (Submission Deadline)
+SEQUENCE:0
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:974686|assessment|30|evaluation
+DTSTART:20150624T160100Z
+DTEND:20150624T170100Z
+DTSTAMP:20150624T160100Z
+CREATED:20150610T220836Z
+DESCRIPTION: Note that deadlines are sometimes extended\, so check the website for the latest information.
+LAST-MODIFIED:20150624T160100Z
+LOCATION:https://class.coursera.org/interactivepython1-003/human_grading/view?assessment_id=30
+SUMMARY:IntPyt: Mini-project # 3 - &quot\;Stopwatch: The Game&quot\; (Evaluation Deadline)
+SEQUENCE:0
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:974686|assessment|31|submission
+DTSTART:20150628T040100Z
+DTEND:20150628T050100Z
+DTSTAMP:20150628T040100Z
+CREATED:20150610T220836Z
+DESCRIPTION: Note that deadlines are sometimes extended\, so check the website for the latest information.
+LAST-MODIFIED:20150628T040100Z
+LOCATION:https://class.coursera.org/interactivepython1-003/human_grading/view?assessment_id=31
+SUMMARY:IntPyt: Mini-project # 4 - &quot\;Pong&quot\; (Submission Deadline)
+SEQUENCE:0
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:974686|assessment|31|evaluation
+DTSTART:20150701T160100Z
+DTEND:20150701T170100Z
+DTSTAMP:20150701T160100Z
+CREATED:20150610T220836Z
+DESCRIPTION: Note that deadlines are sometimes extended\, so check the website for the latest information.
+LAST-MODIFIED:20150701T160100Z
+LOCATION:https://class.coursera.org/interactivepython1-003/human_grading/view?assessment_id=31
+SUMMARY:IntPyt: Mini-project # 4 - &quot\;Pong&quot\; (Evaluation Deadline)
+SEQUENCE:0
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:974686|assessment|45|submission
+DTSTART:20150607T040100Z
+DTEND:20150607T050100Z
+DTSTAMP:20150607T040100Z
+CREATED:20150610T220836Z
+DESCRIPTION: Note that deadlines are sometimes extended\, so check the website for the latest information.
+LAST-MODIFIED:20150607T040100Z
+LOCATION:https://class.coursera.org/interactivepython1-003/human_grading/view?assessment_id=45
+SUMMARY:IntPyt: Mini-project # 0 - &quot\;We want... a shrubbery!&quot\; (optional\, late) (Submission Deadline)
+SEQUENCE:0
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:974686|assessment|45|evaluation
+DTSTART:20150610T160100Z
+DTEND:20150610T170100Z
+DTSTAMP:20150610T160100Z
+CREATED:20150610T220836Z
+DESCRIPTION: Note that deadlines are sometimes extended\, so check the website for the latest information.
+LAST-MODIFIED:20150610T160100Z
+LOCATION:https://class.coursera.org/interactivepython1-003/human_grading/view?assessment_id=45
+SUMMARY:IntPyt: Mini-project # 0 - &quot\;We want... a shrubbery!&quot\; (optional\, late) (Evaluation Deadline)
+SEQUENCE:0
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:974686|assessment|46|submission
+DTSTART:20150614T040100Z
+DTEND:20150614T050100Z
+DTSTAMP:20150614T040100Z
+CREATED:20150610T220836Z
+DESCRIPTION: Note that deadlines are sometimes extended\, so check the website for the latest information.
+LAST-MODIFIED:20150614T040100Z
+LOCATION:https://class.coursera.org/interactivepython1-003/human_grading/view?assessment_id=46
+SUMMARY:IntPyt: Mini-project # 1 - Rock-paper-scissors-lizard-Spock (late) (Submission Deadline)
+SEQUENCE:0
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:974686|assessment|46|evaluation
+DTSTART:20150617T160100Z
+DTEND:20150617T170100Z
+DTSTAMP:20150617T160100Z
+CREATED:20150610T220836Z
+DESCRIPTION: Note that deadlines are sometimes extended\, so check the website for the latest information.
+LAST-MODIFIED:20150617T160100Z
+LOCATION:https://class.coursera.org/interactivepython1-003/human_grading/view?assessment_id=46
+SUMMARY:IntPyt: Mini-project # 1 - Rock-paper-scissors-lizard-Spock (late) (Evaluation Deadline)
+SEQUENCE:0
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:974686|assessment|47|submission
+DTSTART:20150621T040100Z
+DTEND:20150621T050100Z
+DTSTAMP:20150621T040100Z
+CREATED:20150610T220836Z
+DESCRIPTION: Note that deadlines are sometimes extended\, so check the website for the latest information.
+LAST-MODIFIED:20150621T040100Z
+LOCATION:https://class.coursera.org/interactivepython1-003/human_grading/view?assessment_id=47
+SUMMARY:IntPyt: Mini-project # 2 - &quot\;Guess the number&quot\; game (late) (Submission Deadline)
+SEQUENCE:0
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:974686|assessment|47|evaluation
+DTSTART:20150624T160100Z
+DTEND:20150624T170100Z
+DTSTAMP:20150624T160100Z
+CREATED:20150610T220836Z
+DESCRIPTION: Note that deadlines are sometimes extended\, so check the website for the latest information.
+LAST-MODIFIED:20150624T160100Z
+LOCATION:https://class.coursera.org/interactivepython1-003/human_grading/view?assessment_id=47
+SUMMARY:IntPyt: Mini-project # 2 - &quot\;Guess the number&quot\; game (late) (Evaluation Deadline)
+SEQUENCE:0
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:974686|assessment|48|submission
+DTSTART:20150628T040100Z
+DTEND:20150628T050100Z
+DTSTAMP:20150628T040100Z
+CREATED:20150610T220836Z
+DESCRIPTION: Note that deadlines are sometimes extended\, so check the website for the latest information.
+LAST-MODIFIED:20150628T040100Z
+LOCATION:https://class.coursera.org/interactivepython1-003/human_grading/view?assessment_id=48
+SUMMARY:IntPyt: Mini-project # 3 - &quot\;Stopwatch: The Game&quot\; (late) (Submission Deadline)
+SEQUENCE:0
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:974686|assessment|48|evaluation
+DTSTART:20150701T160100Z
+DTEND:20150701T170100Z
+DTSTAMP:20150701T160100Z
+CREATED:20150610T220836Z
+DESCRIPTION: Note that deadlines are sometimes extended\, so check the website for the latest information.
+LAST-MODIFIED:20150701T160100Z
+LOCATION:https://class.coursera.org/interactivepython1-003/human_grading/view?assessment_id=48
+SUMMARY:IntPyt: Mini-project # 3 - &quot\;Stopwatch: The Game&quot\; (late) (Evaluation Deadline)
+SEQUENCE:0
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:974686|assessment|49|submission
+DTSTART:20150705T040100Z
+DTEND:20150705T050100Z
+DTSTAMP:20150705T040100Z
+CREATED:20150610T220836Z
+DESCRIPTION: Note that deadlines are sometimes extended\, so check the website for the latest information.
+LAST-MODIFIED:20150705T040100Z
+LOCATION:https://class.coursera.org/interactivepython1-003/human_grading/view?assessment_id=49
+SUMMARY:IntPyt: Mini-project # 4 - &quot\;Pong&quot\; (late) (Submission Deadline)
+SEQUENCE:0
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:974686|assessment|49|evaluation
+DTSTART:20150708T160100Z
+DTEND:20150708T170100Z
+DTSTAMP:20150708T160100Z
+CREATED:20150610T220836Z
+DESCRIPTION: Note that deadlines are sometimes extended\, so check the website for the latest information.
+LAST-MODIFIED:20150708T160100Z
+LOCATION:https://class.coursera.org/interactivepython1-003/human_grading/view?assessment_id=49
+SUMMARY:IntPyt: Mini-project # 4 - &quot\;Pong&quot\; (late) (Evaluation Deadline)
+SEQUENCE:0
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
